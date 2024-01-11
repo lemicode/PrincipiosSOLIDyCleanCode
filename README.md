@@ -20,7 +20,19 @@ yarn dev
 npm run dev
 ```
 
-## Palabras Claves
+## Conceptos Claves
 
-- Deuda técnica
-- Clean Code
+- Deuda técnica.
+- Clean Code.
+- Los nombres de las clases preferiblemente deben ser cortos y no genéricos.
+- En una función limitar a los parámetros posicionales a 3 como máximo.
+- Evitar redundancias, por ejemplo si una función se llama *getMovieById* no es necesario que el parámetro sea *movieId*, podría llamarse sólo *id*.
+- Organizar las propiedas de una clase o interface en orden alfabético (ascendente).
+- Las funciones sólo deben hacer un único trabajo o tarea conforme al nombre especificado.
+- Principio KISS.
+- Balance entre simplicidad y legibilidad para las funciones.
+- Producrar que cada función no sobrepase las 20 líneas.
+- Evitar el uso de else.
+- Priorizar el uso de la condicional ternaria en lo posible.
+- Menos indentación es mejor.
+- Principio DRY (Don't Repeat Yourself).
