@@ -25,7 +25,7 @@ npm run dev
 - Deuda técnica.
 - Clean Code.
 - Los nombres de las clases preferiblemente deben ser cortos y no genéricos.
-- En una función limitar a los parámetros posicionales a 3 como máximo.
+- En una función limitar los parámetros posicionales a 3 como máximo.
 - Evitar redundancias, por ejemplo si una función se llama *getMovieById* no es necesario que el parámetro sea *movieId*, podría llamarse sólo *id*.
 - Organizar las propiedas de una clase o interface en orden alfabético (ascendente).
 - Las funciones sólo deben hacer un único trabajo o tarea conforme al nombre especificado.
@@ -36,3 +36,14 @@ npm run dev
 - Priorizar el uso de la condicional ternaria en lo posible.
 - Menos indentación es mejor.
 - Principio DRY (Don't Repeat Yourself).
+- Principio de responsabilidad única.
+- Las propiedades se organizan en el siguiente orden: 1. statics 2. publics 3. privates
+- Estructura Recomendada de Clases:
+
+![1.png](./src/img/1.png)
+
+- Recomendación para los comentarios:
+
+![2.png](./src/img/2.png)
+
+- Uniformidad en el proyecto. Problemas similares, soluciones similares.
