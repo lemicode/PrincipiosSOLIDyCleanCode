@@ -83,3 +83,5 @@ Fuente de la imagen: devtalles.com
     I – Interface Segregation Principle (ISP)
 
     D – Dependency Inversion Principle (DIP)
+
+
