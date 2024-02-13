@@ -1,4 +1,4 @@
-# Clean Code - SOLID
+# Principios SOLID y Clean Code
 
 ## Proyecto para practicar
 
@@ -20,7 +20,7 @@ yarn dev
 npm run dev
 ```
 
-## Conceptos Claves
+## Conceptos Claves o Apuntes
 
 - Deuda técnica.
 - Clean Code.
@@ -83,5 +83,22 @@ Fuente de la imagen: devtalles.com
     I – Interface Segregation Principle (ISP)
 
     D – Dependency Inversion Principle (DIP)
+- SRP - Detectar Violaciones
 
+![5.png](./src/img/5.png)
+Fuente de la imagen: devtalles.com
 
+- OCP: las clases deberían estar abiertas a expandirse pero cerradas a las modificaciones.
+- OCP - Detectar Violaciones
+
+![6.png](./src/img/6.png)
+Fuente de la imagen: devtalles.com
+
+- LSP: este principio permirte el reemplazo de una clase por otra que implemente o extienda de la misma clase base.
+- ISP: consiste en quitar de las clases la obligatoriedad de hacer implementaciones innecesarias mediante la segregación de interfaces.
+- DIP: el corazón de este principio es basar el código en abstracciones y no en implementaciones.
+- Una buena práctica en general es evitar las dependencias ocultas en una clase, es decir, instanciar clases directamente dentro de una clase. En vez de ello, es mejor usar la inyección de dependencias para que a simple vista se pueda saber cuales son las dependencias de una clase. Esto ayuda a disminuir el acoplamiento entre clases.
+
+## Aclaración
+
+Para la realización de los ejercicios no se crearon o se separaron las entidades de forma granular dado que el propósito principal era estudiar los diferentes conceptos sin llegar a complicaciones o abordajes innecesarios para el entendimiento.
